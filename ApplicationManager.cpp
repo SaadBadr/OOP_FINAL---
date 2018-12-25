@@ -209,17 +209,15 @@ void ApplicationManager::AddFigure(CFigure* pFig)
 {
 	int max =0 ;
 	for (int i =0 ; i < FigCount ; i++)
-	{
-		if (FigList[i] -> getID()) max = FigList[i]->getID() ;
+	{if (FigList[i] -> getID() >  max ) max =  FigList[i]->getID() ;}
 		pFig->set_ID(max+1);
-	}
+	
 
 	pFig->set_ID(FigCount);
 	
 	FigList[FigCount++] = pFig;}
 
 }
-
 
 void ApplicationManager :: DelFigure(bool implicit, CFigure * Figure)
 {
