@@ -23,6 +23,7 @@ bool CFigure::isSelected(){
 		return false;
 	}
 }
+int CFigure :: getID() {return ID ;}
 
 
 void CFigure::SetCutted(bool c)

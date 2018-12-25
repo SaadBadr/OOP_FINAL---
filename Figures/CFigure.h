@@ -27,7 +27,7 @@ public:
 	virtual bool isSelected();
 	virtual bool isCutted();
 	virtual void unCut();
-
+	int getID();
 	virtual void Draw(Output* pOut) const  = 0 ;		//Draw the figure
 	
 	void ChngDrawClr(color Dclr);	//changes the figure's drawing color

@@ -25,7 +25,7 @@ ApplicationManager::ApplicationManager() : Clipboard(NULL),SelectedFig(NULL),Sou
 	pIn = pOut->CreateInput();
 	
 	FigCount = 0;
-	
+	IsCutted = false;
 	SelectedFig = NULL;
 	//Create an array of figure pointers and set them to NULL		
 	for(int i=0; i<MaxFigCount; i++)
@@ -202,11 +202,24 @@ CFigure * ApplicationManager::getClipboard() const
 
 //Add a figure to the list of figures
 void ApplicationManager::AddFigure(CFigure* pFig)
+
 {
 	if(FigCount < MaxFigCount )
-	{	pFig->set_ID(FigCount);
-		FigList[FigCount++] = pFig;}
+	
+{
+	int max =0 ;
+	for (int i =0 ; i < FigCount ; i++)
+	{
+		if (FigList[i] -> getID()) max = FigList[i]->getID() ;
+		pFig->set_ID(max+1);
+	}
+
+	pFig->set_ID(FigCount);
+	
+	FigList[FigCount++] = pFig;}
+
 }
+
 
 void ApplicationManager :: DelFigure(bool implicit, CFigure * Figure)
 {
