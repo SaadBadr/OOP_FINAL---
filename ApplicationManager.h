@@ -14,35 +14,35 @@ class ApplicationManager
 private:
 	int FigCount;		//Actual number of figures
 	CFigure* FigList[MaxFigCount];
-		
+
 	CFigure* SelectedFig; //Pointer to the selected figure
 	CFigure* Clipboard;   //Pointer to the copied/cut figure
 
-	//Pointers to Input and Output classes
+						  //Pointers to Input and Output classes
 	Input *pIn;
 	Output *pOut;
 
 	bool SoundState;
 
-public:	
-	ApplicationManager(); 
+public:
+	ApplicationManager();
 	~ApplicationManager();
 	bool getSoundState();
 	void setSoundState(bool);
 	void unCutLastFigure();
 	ActionType GetUserAction() const;
-	void ExecuteAction(ActionType) ; //Creates an action and executes it
+	void ExecuteAction(ActionType); //Creates an action and executes it
 	void setSelectedFig(CFigure*x);	//set the Selected Figure to any figure
 	void setClipboard(CFigure*c);	//set the Selected Figure to any figure
-	CFigure* getSelectedFig() const ;		//get the selected figure
-	CFigure *getClipboard() const; 
-	bool IsCutted;
+	CFigure* getSelectedFig() const;		//get the selected figure
+	CFigure *getClipboard() const;
+	void deleteCutted();
 	// -- Figures Management Functions
 	void AddFigure(CFigure* pFig);          //Adds a new figure to the FigList
-	void DelFigure(bool , CFigure *) ;
-	CFigure ** getFigList ();
+	void DelFigure(bool, CFigure *);
+	CFigure ** getFigList();
 	CFigure *GetFigure(int x, int y) const; //Search for a figure given a point inside the figure
-	int & getCount () ;	
+	int & getCount();
 	// -- Interface Management Functions
 	Input *GetInput() const; //Return pointer to the input
 	Output *GetOutput() const; //Return pointer to the output

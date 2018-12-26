@@ -23,7 +23,6 @@ void CutFigAction::ReadActionParameters()
 	pManager->getSelectedFig()->SetCutted(true);
 
 	bool isLine = false;
-	pManager->IsCutted = true;
 	if(dynamic_cast<CRectangle*>(pManager->getSelectedFig())) SelectedFigure = new CRectangle(p[0],p[1],gfx);
 	else if(dynamic_cast<CRhombus*>(pManager->getSelectedFig())) SelectedFigure = new CRhombus(p[0],gfx);
 	else if(dynamic_cast<CTriangle*>(pManager->getSelectedFig())) SelectedFigure = new CTriangle(p[0],p[1],p[2],gfx);
