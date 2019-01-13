@@ -1,2 +1,103 @@
-﻿  select.cpp
-  PT-Project.vcxproj -> C:\Users\sg\Documents\GitHub\OOP-PROJECT-CMP_\OOP_FINAL---\.\Debug\PT Project.exe
+﻿Project file contains ToolsVersion="15.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+  main.cpp
+  Output.cpp
+  Input.cpp
+  CTriangle.cpp
+  CRhombus.cpp
+  CRectangle.cpp
+  CLine.cpp
+c:\users\saadm\downloads\compressed\paint_for_kids-master\oop_final---\figures\cline.cpp(60): warning C4101: 'FC' : unreferenced local variable
+c:\users\saadm\downloads\compressed\paint_for_kids-master\oop_final---\figures\cline.cpp(74): warning C4101: 'FC' : unreferenced local variable
+  CFigure.cpp
+  CEllipse.cpp
+  windowinput.cpp
+  mousequeue.cpp
+  keyqueue.cpp
+  image.cpp
+c:\users\saadm\downloads\compressed\paint_for_kids-master\oop_final---\cmugraphicslib\image.cpp(115): warning C4018: '<' : signed/unsigned mismatch
+  colors.cpp
+  CMUgraphics.cpp
+c:\users\saadm\downloads\compressed\paint_for_kids-master\oop_final---\cmugraphicslib\cmugraphics.cpp(256): warning C4101: 'iY' : unreferenced local variable
+c:\users\saadm\downloads\compressed\paint_for_kids-master\oop_final---\cmugraphicslib\cmugraphics.cpp(256): warning C4101: 'iX' : unreferenced local variable
+c:\users\saadm\downloads\compressed\paint_for_kids-master\oop_final---\cmugraphicslib\cmugraphics.cpp(750): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+c:\users\saadm\downloads\compressed\paint_for_kids-master\oop_final---\cmugraphicslib\cmugraphics.cpp(1239): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'sprintf'
+c:\users\saadm\downloads\compressed\paint_for_kids-master\oop_final---\cmugraphicslib\cmugraphics.cpp(1246): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'sprintf'
+c:\users\saadm\downloads\compressed\paint_for_kids-master\oop_final---\cmugraphicslib\cmugraphics.cpp(1277): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'sprintf'
+c:\users\saadm\downloads\compressed\paint_for_kids-master\oop_final---\cmugraphicslib\cmugraphics.cpp(1285): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'sprintf'
+c:\users\saadm\downloads\compressed\paint_for_kids-master\oop_final---\cmugraphicslib\cmugraphics.cpp(1432): warning C4018: '>' : signed/unsigned mismatch
+  auxil.cpp
+  ApplicationManager.cpp
+  SwitchToPlayAction.cpp
+  SwitchToDrawAction.cpp
+  select.cpp
+  Generating Code...
+c:\users\saadm\downloads\compressed\paint_for_kids-master\oop_final---\figures\crectangle.cpp(36): warning C4715: 'CRectangle::Isinside' : not all control paths return a value
+  Compiling...
+  SaveAction.cpp
+  playSound.cpp
+  PickByFigure.cpp
+  PickByColour.cpp
+  PasteFigAction.cpp
+  LoadAction.cpp
+  DeleteAction.cpp
+c:\users\saadm\downloads\compressed\paint_for_kids-master\oop_final---\actions\deleteaction.cpp(14): warning C4800: 'bool *' : forcing value to bool 'true' or 'false' (performance warning)
+  CutFigAction.cpp
+  CopyFigAction.cpp
+c:\users\saadm\downloads\compressed\paint_for_kids-master\oop_final---\actions\copyfigaction.cpp(9): warning C4390: ';' : empty controlled statement found; is this the intent?
+  ChnageDrawColorAction.cpp
+  ChangeFillColorAction.cpp
+  AddTriangleAction.cpp
+  AddRhombusAction.cpp
+  AddRectAction.cpp
+  AddLineAction.cpp
+  AddEllipseAction.cpp
+  Generating Code...
+  jutils.c
+  jquant2.c
+  jquant1.c
+  jmemnobs.c
+  jmemmgr.c
+c:\users\saadm\downloads\compressed\paint_for_kids-master\oop_final---\cmugraphicslib\jpeg\jmemmgr.c(1103): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdlib.h(449) : see declaration of 'getenv'
+c:\users\saadm\downloads\compressed\paint_for_kids-master\oop_final---\cmugraphicslib\jpeg\jmemmgr.c(1106): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : see declaration of 'sscanf'
+  jidctred.c
+  jidctint.c
+  jidctfst.c
+  jidctflt.c
+  jerror.c
+c:\users\saadm\downloads\compressed\paint_for_kids-master\oop_final---\cmugraphicslib\jpeg\jerror.c(169): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'sprintf'
+c:\users\saadm\downloads\compressed\paint_for_kids-master\oop_final---\cmugraphicslib\jpeg\jerror.c(175): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'sprintf'
+  jdtrans.c
+  jdsample.c
+  jdpostct.c
+  jdphuff.c
+  jdmerge.c
+  jdmaster.c
+  jdmarker.c
+  jdmainct.c
+  jdinput.c
+  jdhuff.c
+  Generating Code...
+  Compiling...
+  jddctmgr.c
+  jdcolor.c
+  jdcoefct.c
+  jdatasrc.c
+  jdapistd.c
+  jdapimin.c
+  jcparam.c
+  jcomapi.c
+  jpegload.c
+c:\users\saadm\downloads\compressed\paint_for_kids-master\oop_final---\cmugraphicslib\jpegload.c(23): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+  Generating Code...
+AddEllipseAction.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+  PT-Project.vcxproj -> C:\Users\saadm\Downloads\Compressed\Paint_for_kids-master\OOP_FINAL---\.\Debug\PT Project.exe
