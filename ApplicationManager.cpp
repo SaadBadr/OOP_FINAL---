@@ -330,5 +330,5 @@ ApplicationManager::~ApplicationManager()
 	}
 	delete pIn;
 	delete pOut;
-
+	if(Clipboard != NULL) delete Clipboard;
 }
